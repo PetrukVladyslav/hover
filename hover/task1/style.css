@@ -1,0 +1,60 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@1&display=swap');
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.block{
+    width: 100vw;
+    height: 50vw;
+    font-family: 'Xanh Mono', monospace;
+}
+
+li{
+    width: 14%;
+    height: 100vh;
+    display: inline-block;
+    font-size: 250px;
+    text-align: center;
+    vertical-align: center;
+    line-height: 100vh;
+    margin: 0-2px;
+}
+li:nth-child(1){
+    background: #c31432;
+    background: -webkit-linear-gradient(to bottom, #240b36, #c31432);
+    background: linear-gradient(to bottom, #240b36, #c31432);
+}
+li:nth-child(2){
+    background: #654ea3;
+    background: -webkit-linear-gradient(to bottom, #eaafc8, #654ea3);
+    background: linear-gradient(to bottom, #eaafc8, #654ea3);
+}
+li:nth-child(3){
+    background: #CAC531;
+    background: -webkit-linear-gradient(to bottom, #F3F9A7, #CAC531);
+    background: linear-gradient(to bottom, #F3F9A7, #CAC531);
+}
+li:nth-child(4){
+    background: #f12711;
+    background: -webkit-linear-gradient(to bottom, #f5af19, #f12711);
+    background: linear-gradient(to bottom, #f5af19, #f12711);
+}
+li:nth-child(5){
+    background: #8A2387;
+    background: -webkit-linear-gradient(to bottom, #F27121, #E94057, #8A2387);
+    background: linear-gradient(to bottom, #F27121, #E94057, #8A2387);
+}
+li:nth-child(6){
+    background: #333333;
+    background: -webkit-linear-gradient(to bottom, #dd1818, #333333);
+    background: linear-gradient(to bottom, #dd1818, #333333);
+}
+li:nth-child(7){
+    background: #bdc3c7;
+    background: -webkit-linear-gradient(to bottom, #2c3e50, #bdc3c7);
+    background: linear-gradient(to bottom, #2c3e50, #bdc3c7);   
+}
